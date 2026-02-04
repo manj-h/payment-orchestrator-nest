@@ -196,7 +196,7 @@ Reason:
 
 ---
 
-## Summary
+## 📃 Summary
 
 - 4 explicity states
 - 3 allowed transitions

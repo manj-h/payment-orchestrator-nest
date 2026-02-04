@@ -175,7 +175,7 @@ Worker
   | -- commit
 ```
 
-### Failure Handling Summary
+### Failure Handling 📃 Summary
 
 | Failure Point        | Result                       |
 | -------------------- | ---------------------------- |
@@ -191,6 +191,7 @@ Retries **never recreate intent** — They only re-create an existing payment.
 ---
 
 ### Design Guarantees
+
 - API is idempotent
 - Workers are retry-safe
 - Wallet update are automic
@@ -207,13 +208,12 @@ Retries **never recreate intent** — They only re-create an existing payment.
 
 ---
 
-### Summary
+### 📃 Summary
 
 The system clearly sperates:
+
 - **Internal** — API
 - **External** — Worker
-- **Correctness — Database
+- \*\*Correctness — Database
 
 This separation ensures the system remains correct, auditable, and recoverable under real-word failure conditions.
-
-

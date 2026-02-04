@@ -151,7 +151,7 @@ This allows operators to distinguish:
 
 ---
 
-## Summary
+## 📃 Summary
 
 Idempotency guarantees **intent uniqueness.**
 Retries guarantee **execution resilience.**
