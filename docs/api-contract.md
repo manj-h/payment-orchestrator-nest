@@ -305,17 +305,21 @@ Manually retries a failed payment.
 ---
 
 #### Versioning
+
 All endpoints are versioned under:
+
 ```bash
 //api/v1
 ```
+
 Breaking changes require `/v2`.
 
 ---
 
-#### Summary
+#### 📃 Summary
 
 This API contract prioritizes:
+
 - Idemptency
 - Correctness
 - Safe retries

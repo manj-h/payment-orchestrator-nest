@@ -180,7 +180,7 @@ These are **design intents**, not production SLOs.
 
 ---
 
-## 📃 Summary
+## 📃 📃 Summary
 
 This MVP delivers the **minimum reliable core** required to move money safely.
 
