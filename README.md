@@ -1,3 +1,13 @@
+# Payment Orchestrator Core (NestJS Prototype)
+
+> **Project Status**
+>
+> This repository contains the original implementation of the Payment Orchestrator built with NestJS, TypeScript, Prisma, PostgreSQL, and BullMQ.
+>
+> Development on this implementation has been intentionally stopped after shifting the project to **Java and Spring Boot**. The architecture, design documents, and engineering decisions in this repository remain the foundation for the active implementation.
+>
+> **➡️ Active implementation:** `payment-orchestrator` (Java + Spring Boot)
+
 # **Payment Orchestrator Core**
 
 A reliability-first backend service that orchestrates payment execution, ensures wallet consistency under concurrency, and maintains an immutable ledger of money movements.
